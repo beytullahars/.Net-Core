@@ -1,0 +1,15 @@
+C:\Users\m_b_2\OneDrive\Masaüstü\.Net Core\bin\Debug\net6.0\.Net Core.exe
+C:\Users\m_b_2\OneDrive\Masaüstü\.Net Core\bin\Debug\net6.0\.Net Core.deps.json
+C:\Users\m_b_2\OneDrive\Masaüstü\.Net Core\bin\Debug\net6.0\.Net Core.runtimeconfig.json
+C:\Users\m_b_2\OneDrive\Masaüstü\.Net Core\bin\Debug\net6.0\.Net Core.dll
+C:\Users\m_b_2\OneDrive\Masaüstü\.Net Core\bin\Debug\net6.0\.Net Core.pdb
+C:\Users\m_b_2\OneDrive\Masaüstü\.Net Core\obj\Debug\net6.0\.Net Core.csproj.AssemblyReference.cache
+C:\Users\m_b_2\OneDrive\Masaüstü\.Net Core\obj\Debug\net6.0\.Net Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m_b_2\OneDrive\Masaüstü\.Net Core\obj\Debug\net6.0\.Net Core.AssemblyInfoInputs.cache
+C:\Users\m_b_2\OneDrive\Masaüstü\.Net Core\obj\Debug\net6.0\.Net Core.AssemblyInfo.cs
+C:\Users\m_b_2\OneDrive\Masaüstü\.Net Core\obj\Debug\net6.0\.Net Core.csproj.CoreCompileInputs.cache
+C:\Users\m_b_2\OneDrive\Masaüstü\.Net Core\obj\Debug\net6.0\.Net Core.dll
+C:\Users\m_b_2\OneDrive\Masaüstü\.Net Core\obj\Debug\net6.0\refint\.Net Core.dll
+C:\Users\m_b_2\OneDrive\Masaüstü\.Net Core\obj\Debug\net6.0\.Net Core.pdb
+C:\Users\m_b_2\OneDrive\Masaüstü\.Net Core\obj\Debug\net6.0\.Net Core.genruntimeconfig.cache
+C:\Users\m_b_2\OneDrive\Masaüstü\.Net Core\obj\Debug\net6.0\ref\.Net Core.dll
