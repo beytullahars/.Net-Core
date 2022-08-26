@@ -16,7 +16,7 @@ static void Main(string[] args){
         Console.Write("\t\t\t\tUser Last Name : ");
         string soyad=Console.ReadLine();
         Console.Write("\t\t\t\tPassword : ");
-        
+
         int sifre =int.Parse(Console.ReadLine());
 
         if (kullanıcı_adı.Equals(ad) && kullanıcı_soyad.Equals(soyad) && (parola.Equals(sifre)))
@@ -72,6 +72,10 @@ static void Main(string[] args){
                 Console.WriteLine("Çıkış yapılıyor...");
                 break;
             }
+            else
+            {
+                Console.WriteLine("Geçersiz bilgi lütfen tekrar deneyiniz ");
+            } 
             
         }
 
