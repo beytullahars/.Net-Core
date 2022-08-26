@@ -4,35 +4,76 @@ class Program{
 
 
 static void Main(string[] args){
-double boy, kilo,indeks=0;
-            Console.Write("Boyunuzu m cinsinden Giriniz (Ör:1,80)  : ");
-            boy = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Kilonuzu Giriniz : ");
-            kilo = Convert.ToDouble(Console.ReadLine());
-            indeks = kilo / (boy * boy);
-            Console.WriteLine("================================================");
-            Console.WriteLine("Vücut Kitle İndexiniz : " + indeks);
-            if (indeks < 18)
+        string kullanıcı_adı ="admin";
+        string kullanıcı_soyad="admin";
+        int parola=2525;
+        int bakiye=25000;
+
+        Console.WriteLine("ATM");
+        Console.WriteLine("*********************");
+        Console.Write("\t\t\t\tUsername : ");
+        string ad=Console.ReadLine();
+        Console.Write("\t\t\t\tUser Last Name : ");
+        string soyad=Console.ReadLine();
+        Console.Write("\t\t\t\tPassword : ");
+        
+        int sifre =int.Parse(Console.ReadLine());
+
+        if (kullanıcı_adı.Equals(ad) && kullanıcı_soyad.Equals(soyad) && (parola.Equals(sifre)))
+        {
+            
+                Console.WriteLine("Bankamıza Hoşgeldiniz");
+                Console.WriteLine("************************");
+                Console.WriteLine("1.Bakiye Öğrenme");
+                Console.WriteLine("2.Para Yatırma");
+                Console.WriteLine("3.Para Çekme");
+                Console.WriteLine("Çıkış için q'a basınız");
+
+        }
+        else
+        {
+            Console.WriteLine("Yanlış bilgi girdiniz.");
+            
+        }
+    
+        while (true)
+        {
+            Console.WriteLine("İşlem seçiniz : ");
+            string secim=Console.ReadLine();
+            if (secim=="1")
             {
-                Console.WriteLine("Zayıf");
+                Console.WriteLine("Bakiyeniz : " + bakiye + "TL");
             }
-            else if(indeks>=18 && indeks < 25)
+            if (secim=="2")
             {
-                Console.WriteLine("Normal");
+                Console.WriteLine("Yatırmak istediğiniz tutarı giriniz : ");
+                int tutar=int.Parse(Console.ReadLine());
+                bakiye +=tutar;
+                Console.WriteLine("Yeni Bakiyeniz : " + bakiye + " TL");
+
             }
-            else if (indeks >= 25 && indeks < 30)
+            if (secim=="3")
             {
-                Console.WriteLine("Kilolu");
+                Console.WriteLine("Çekmek istediğiniz tutarı giriniz : ");
+                int tutar=int.Parse(Console.ReadLine());
+                
+                if (bakiye-tutar<0)
+                {
+                    Console.WriteLine("Yetersiz bakiye");
+                }
+                else
+                {
+                    bakiye -=tutar;
+                    Console.WriteLine("Yeni bakiyeniz : " + bakiye + " TL ");
+                }
             }
-            else if (indeks >= 30 && indeks < 35)
+            if (secim=="q")
             {
-                Console.WriteLine("Obez");
+                Console.WriteLine("Çıkış yapılıyor...");
+                break;
             }
-            else
-            {
-                Console.WriteLine("Ciddi Obez");
-            }
-            Console.ReadKey();
+            
+        }
 
 
 
